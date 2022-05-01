@@ -1,0 +1,18 @@
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+  id TEXT PRIMARY KEY ,
+  password TEXT NOT NULL,
+  email TEXT UNIQUE NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT NOW()
+);
+
+DROP TABLE IF EXISTS posts;
+
+CREATE TABLE posts(
+  id TEXT PRIMARY KEY,
+  post_content TEXT NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+  user_id TEXT NOT NULL,
+  FOREIGN KEY (user_id) REFERENCES users(id)
+)
