@@ -3,7 +3,7 @@
         <h1>Post App Tester</h1>
     </body>
     <script>
-        fetch("https://localhost:5050/posts", {
+        fetch("http://localhost:5050/posts", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
@@ -15,7 +15,7 @@
         })
 
 
-        var ws = new WebSocket("ws://localhost:5050/posts");
+        var ws = new WebSocket("ws://localhost:5050/ws");
 
         ws.onopen = function() {
             console.log("Connected to server");
