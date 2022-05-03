@@ -13,5 +13,20 @@
         }).then(function(json) {
             console.log(json)
         })
+
+
+        var ws = new WebSocket("ws://localhost:5050/posts");
+
+        ws.onopen = function() {
+            console.log("Connected to server");
+        }
+
+        ws.onmessage = function(event) {
+            console.log(event.data)
+        }
+
+        ws.onerror = function(event) {
+            console.log("Error: " + event.data)
+        }
     </script>
 </html>
