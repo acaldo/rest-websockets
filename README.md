@@ -10,7 +10,7 @@
 ## Tech
 
 - [Golang](https://go.dev/) - Build fast, reliable, and efficient software at scale
-- [JWT](github.com/golang-jwt/jwt)
+- [JWT](https://github.com/golang-jwt/jwt)
 -	[Gorilla Mux](github.com/gorilla/mux) -Router 
 -	[Gorilla Websocket](github.com/gorilla/websocket) - Conexion websockets
 -	[Godotenv](github.com/joho/godotenv) - Manejo de variables de entornos
