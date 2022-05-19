@@ -19,15 +19,15 @@
 -	[Ksuid](github.com/segmentio/ksuid) - Creación de id 
 -	[Crypto](golang.org/x/crypto)
 
-##Build
-#La aplicación se mantiene con Docker
+## Build
+# La aplicación se mantiene con Docker
 
-#Build
+# Build
 ```sh
 docker build .t -[nombre]
 ```
 
-#Run
+# Run
 ```sh
 docker run -p 5050:5050 [nombre]
 ```
