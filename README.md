@@ -3,13 +3,13 @@
 
 ## Características
 
--Autentificación con JWT
--Conexión a Postgres
--Streaming data con WS
+- Autentificación con JWT
+- Conexión a Postgres
+- Streaming data con WS
 
 ## Tech
 
-- [Golang] - evented I/O for the backend
+- [Golang](https://go.dev/) - evented I/O for the backend
 - [JWT](github.com/golang-jwt/jwt)
 -	[Gorilla Mux](github.com/gorilla/mux) -Router 
 -	[Gorilla Websocket](github.com/gorilla/websocket) - Conexion websockets
