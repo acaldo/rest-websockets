@@ -9,7 +9,7 @@
 
 ## Tech
 
-- [Golang](https://go.dev/) - evented I/O for the backend
+- [Golang](https://go.dev/) - Build fast, reliable, and efficient software at scale
 - [JWT](github.com/golang-jwt/jwt)
 -	[Gorilla Mux](github.com/gorilla/mux) -Router 
 -	[Gorilla Websocket](github.com/gorilla/websocket) - Conexion websockets
