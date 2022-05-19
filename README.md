@@ -11,13 +11,13 @@
 
 - [Golang](https://go.dev/) - Build fast, reliable, and efficient software at scale
 - [JWT](https://github.com/golang-jwt/jwt)
--	[Gorilla Mux](github.com/gorilla/mux) -Router 
--	[Gorilla Websocket](github.com/gorilla/websocket) - Conexion websockets
--	[Godotenv](github.com/joho/godotenv) - Manejo de variables de entornos
--	[pq](github.com/lib/pq)-Conexxion a base de datos
--	[Cors](github.com/rs/cors) -Manejo Cors
--	[Ksuid](github.com/segmentio/ksuid) - Creación de id 
--	[Crypto](golang.org/x/crypto)
+-	[Gorilla Mux](https://github.com/gorilla/mux) -Router 
+-	[Gorilla Websocket](https://github.com/gorilla/websocket) - Conexion websockets
+-	[Godotenv](https://github.com/joho/godotenv) - Manejo de variables de entornos
+-	[pq](https://github.com/lib/pq)-Conexxion a base de datos
+-	[Cors](https://github.com/rs/cors) -Manejo Cors
+-	[Ksuid](https://github.com/segmentio/ksuid) - Creación de id 
+-	[Crypto](https://golang.org/x/crypto)
 
 ## Build
 # La aplicación se mantiene con Docker
